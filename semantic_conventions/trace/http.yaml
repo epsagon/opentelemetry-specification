@@ -17,6 +17,10 @@ groups:
             Full HTTP request URL in the form `scheme://host[:port]/path?query[#fragment]`.
             Usually the fragment is not transmitted over HTTP, but if it is known, it should be included nevertheless.
         examples: ['https://www.foo.bar/search?q=OpenTelemetry#SemConv']
+      - id: query_string
+        type: string
+        brief: >
+          Test
       - id: target
         type: string
         brief: 'The full request target as passed in a HTTP request line or equivalent.'
