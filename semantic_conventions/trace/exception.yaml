@@ -12,7 +12,7 @@ groups:
           The dynamic type of the exception should be preferred over the static type
           in languages that support it.
         examples: ["java.net.ConnectException","OSError"]
-      - id: message
+      - id: message-epsagon-test
         type: string
         brief: The exception message.
         examples: ["Division by zero","Can't convert 'int' object to str implicitly"]
