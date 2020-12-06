@@ -15,11 +15,7 @@ groups:
       - id: message
         type: string
         brief: The exception message.
-        examples: ["Division by zero","Can't convert 'int' object to str implicitly"]
-      - id: message-epsagon-test
-        type: string
-        brief: The exception message.
-        examples: ["Division by zero","Can't convert 'int' object to str implicitly"]
+        examples: ["Division by zero","Can't convert 'int' object to str implicitly","Epsagon test"]
       - id: stacktrace
         type: string
         brief: >
