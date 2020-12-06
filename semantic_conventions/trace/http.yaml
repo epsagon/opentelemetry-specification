@@ -20,7 +20,7 @@ groups:
       - id: query_string
         type: string
         brief: >
-          Test
+          Test2
       - id: target
         type: string
         brief: 'The full request target as passed in a HTTP request line or equivalent.'
